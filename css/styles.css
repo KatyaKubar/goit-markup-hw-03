@@ -47,9 +47,8 @@ h3 {
     letter-spacing: 0.4px;
 }
 .container { 
-    width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .header {

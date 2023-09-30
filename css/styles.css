@@ -48,7 +48,7 @@ h3 {
 }
 .container { 
     width: 1158px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .header {
@@ -174,7 +174,7 @@ h3 {
     display: flex;
     gap: 24px;
 }
-.function-list:first-child {
+.function-item {
     width: calc((100% - 72px) / 4);
 }
 .function-item .subtitle {
@@ -194,6 +194,9 @@ h3 {
 .team ul {
     display: flex;
     gap: 24px
+}
+.team-item {
+    width: calc((100% - 72px) / 4);
 }
 .team li {
     background: #FFF;
